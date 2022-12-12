@@ -1,0 +1,87 @@
+@charset "UTF-8";
+#loader 
+{
+	border: 12px solid #f3f3f3;
+	border-radius: 50%;
+	border-top: 12px solid blue;
+    border-bottom: 12px solid blueviolet;
+	width: 70px;
+	height: 70px;
+	animation: spin 1.5s linear infinite;
+}
+@keyframes spin 
+{
+	100% 
+    {
+		transform: rotate(360deg);
+	}
+}
+.center 
+{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+#myDiv 
+{
+  display: none;
+  overflow-y: scroll;
+}
+#myDiv::-webkit-scrollbar 
+{
+    display: none;
+}
+#myDiv 
+{
+  -ms-overflow-style: none;
+  scrollbar-width: none;  
+}
+.animate-bottom 
+{
+  position: relative;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@keyframes animatebottom 
+{
+  from
+  {
+	 bottom:-100px; opacity:0 
+  } 
+  to
+  {
+	 bottom:0px; opacity:1 
+  }
+}
+::-moz-selection 
+{ /* Code for Firefox */
+  color: white;
+  background: blueviolet;
+}
+
+::selection 
+{
+  color: white;
+  background: blueviolet;
+}
+::-webkit-scrollbar 
+{
+  width: 10px;
+}
+::-webkit-scrollbar-track 
+{
+  background: #f1f1f1; 
+}
+::-webkit-scrollbar-thumb 
+{
+  background: blue; 
+  border-radius: 20px;
+}
+::-webkit-scrollbar-thumb:hover 
+{
+  background: blueviolet; 
+}

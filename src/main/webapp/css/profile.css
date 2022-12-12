@@ -1,0 +1,208 @@
+@charset "UTF-8";
+ @import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
+    .fa 
+    {
+      font-size: 50px;
+      cursor: pointer;
+      user-select: none;
+    }
+    .fa:hover 
+    {
+      color: darkblue;
+    }
+    .dark-mode 
+    {
+      background-color: black;
+      color: white;
+    } 
+    input[type=text],input[type=password],input[type=number],input[type=email],input[type=tel],select
+    {
+      border-radius: 8px;
+      padding: 12px;
+      position: relative;
+      border: 1px solid #ccc;
+      width:500px;
+      font-size: large;
+      padding: 12px;
+      display: inline-block;
+      font-weight: bold;
+    }
+    input[type=checkbox],input[type=radio]
+    {
+      transform: scale(1.5);
+      margin: 2.25px;
+    }
+    label 
+    {
+      padding: 12px 12px 12px 0;
+      display: inline-block;
+      font-weight: bold;
+    }
+    :placeholder-shown
+    {
+      font-size: large;
+      padding: 12px;
+      display: inline-block;
+      font-weight: bold;
+    }
+    button
+    {
+      background-color: #0000FF;
+      border-color: aqua;
+      border: 3cm;
+      border-radius: 8px;
+      color: white;
+      padding: 15px 60px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 200px;
+      cursor: pointer;
+    }
+    .a.href
+    {
+      color:white;
+      text-align: center;
+    }
+    .move
+    {
+      padding-left: 32px;;
+    }
+    .card 
+    {
+      box-shadow: 0 4px 8px 0 black;
+      transition: 0.5s;
+      /* padding: 15px; */
+      border-radius: 20px;
+      background-color: white;
+    }
+    .card:hover 
+    {
+      box-shadow: 0 8px 100px 0 grey;
+      border-radius: 20px;
+    }
+    .p2
+    {
+      font-size: 35px;
+      font-weight: 300;
+      font-family: 'Niconne', cursive;
+      color: darkcyan;
+    }
+    .p1
+    {
+      font-size: 15px;
+      font-weight: 150;
+      font-family: 'Niconne', cursive;
+      color: aquamarine;
+    }
+    .leftcolumn
+    {
+        float:left;
+        width: 60%; 
+    }
+    .rightcolumn
+    {
+        float: right;
+        width: 40%;  
+        padding: 50;
+    }
+    .right
+    {
+        text-align: end;
+        margin-right: 100px;
+    }
+    .a.href
+    {
+      font-size: 35px;
+      font-weight: 300;
+    }
+    .label
+    {
+      font-size: 20px;
+      padding: 3px;
+    }
+    span.psw 
+    {
+      float: right;
+      padding-right: 150px;
+      position: static;
+      /* margin-right: 150px; */
+    }
+    .verify
+    {
+        padding: 30px;;
+        font-size: 15px;
+        font-weight: 150;
+    }
+    .button-value
+    {
+      background-color: #0000FF;
+      border-color: aqua;
+      border: 3cm;
+      border-radius: 8px;
+      color: white;
+      padding: 15px 60px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 200px;
+      cursor: pointer;
+    }
+    fieldset
+    {
+      border-radius: 10px;;
+      width:40%;
+      font: 1rem 'Fira Sans', sans-serif;
+    }
+    .alert 
+    {
+        padding: 15px;
+        color: white;
+        transition: opacity 0.6s;
+        font-size: 35px;
+        font-weight: 300;
+        border-radius: 20px;
+        font-family: 'Niconne', cursive;
+        margin-right: 15px;
+        float: right;
+        width: 25%;
+        display: none;
+    }
+    .alert.info 
+    {
+        background-color: #2196F3;
+    }
+    .closebtn 
+    {
+        margin-left: 15px;
+        color: white;
+        font-weight: bold;
+        float: right;
+        font-size: 35px;
+        line-height: 20px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+    .closebtn:hover 
+    {
+        color: black;
+    }
+    .h2
+    {
+    	margin-left: 10px;
+    	padding-left: 25px;
+    }
+    br 
+  	{
+  		margin:20px 0;
+	}
+	.break
+	{
+		margin:50px 0;
+	}
+	img 
+	{
+    	pointer-events: none;
+	}
