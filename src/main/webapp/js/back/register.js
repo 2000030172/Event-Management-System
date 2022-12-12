@@ -89,10 +89,13 @@ function registration()
 		}));
 					
 		var user=document.getElementById("t2").value;
-		var userid = "user_YlpUOvR4XMQbNkLOirmRy"
+	// Email Js userid
+	    var userid = "email-js-UserId"
 	    emailjs.init(userid);
 	      
-	    emailjs.send("service_n4ku3mh","template_nv47qr1",{
+	// Service
+	// Template
+	    emailjs.send("email-js-service","email-js-template",{
 	      to_name: t3.value,
 	      to_email: t1.value,
 	      to_username: t2.value,
